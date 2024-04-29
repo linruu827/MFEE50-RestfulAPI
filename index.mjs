@@ -25,7 +25,7 @@ const corsOptions = {
     if (!origin || whiteList.includes(origin)) {
       callback(null, true);
     } else {
-      callback(new Error("不允許傳遞料"));
+      callback(new Error("不允許傳遞資料"));
     }
   },
 };
